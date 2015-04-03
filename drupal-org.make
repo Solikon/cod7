@@ -446,6 +446,34 @@ projects[webform][type] = "module"
 projects[webform][version] = "4.5"
 projects[webform][subdir] = "contrib"
 
+; Dana
+projects[menu_block][version] = "2.5"
+projects[menu_block][subdir] = "contrib"
+
+projects[print][version] = "2.0"
+projects[print][subdir] = "contrib"
+
+projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][subdir] = "contrib"
+
+projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][subdir] = "contrib"
+
+projects[imce][version] = "1.9"
+projects[imce][subdir] = "contrib"
+
+projects[backup_migrate][version] = "3.0"
+projects[backup_migrate][subdir] = "contrib"
+
+projects[views_slideshow][version] = "3.1"
+projects[views_slideshow][subdir] = "contrib"
+
+projects[ds][version] = "2.7"
+projects[ds][subdir] = "contrib"
+
+projects[fpa][version] = "2.6"
+projects[fpa][subdir] = "contrib"
+
 ; Contributed themes.
 ; This hash of Omega Git is before the Susy 1 to 2 re-write.
 ; See https://www.drupal.org/node/2398093 for more details.
