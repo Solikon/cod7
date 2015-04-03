@@ -499,6 +499,21 @@ projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
 projects[adminimal_theme][version] = "1.21"
 
+; blacksea
+projects[blacksea][type] = "theme"
+projects[blacksea][version] = "1.3"
+projects[blacksea][subdir] = "contrib"
+
+; skeletontheme
+projects[skeletontheme][type] = "theme"
+projects[skeletontheme][version] = "1.4"
+projects[skeletontheme][subdir] = "contrib"
+
+; business
+projects[business][type] = "theme"
+projects[business][version] = "1.11"
+projects[business][subdir] = "contrib"
+
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 libraries[underscore][download][type] = "get"
