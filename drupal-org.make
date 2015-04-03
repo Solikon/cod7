@@ -241,198 +241,49 @@ projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 
-projects[link][type] = "module"
-projects[link][subdir] = "contrib"
-projects[link][version] = "1.3"
+projects[menu_block][version] = "2.5"
+projects[menu_block][subdir] = "contrib"
 
-projects[module_filter][type] = "module"
-projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = "2.0"
+projects[print][version] = "2.0"
+projects[print][subdir] = "contrib"
 
-projects[mollom][type] = "module"
-projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "2.13"
+projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[multiple_entity_form][type] = "module"
-projects[multiple_entity_form][version] = "1.2"
-projects[multiple_entity_form][subdir] = "contrib"
+projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][subdir] = "contrib"
 
-projects[oauth][type] = "module"
-projects[oauth][subdir] = "contrib"
-projects[oauth][version] = "3.2"
+projects[imce][version] = "1.9"
+projects[imce][subdir] = "contrib"
 
-projects[oauthconnector][type] = "module"
-projects[oauthconnector][subdir] = "contrib"
-projects[oauthconnector][download][type] = "git"
-projects[oauthconnector][download][url] = "http://git.drupal.org/project/oauthconnector.git"
-projects[oauthconnector][download][branch] = "7.x-1.x"
-projects[oauthconnector][download][revision] = "0ce7ac9614710c0f68d0a58cb4ae4667f8bd6fa7"
-
-projects[og][type] = "module"
-projects[og][subdir] = "contrib"
-projects[og][download][type] = "git"
-projects[og][download][url] = "http://git.drupal.org/project/og.git"
-projects[og][download][branch] = "7.x-2.x"
-projects[og][download][revision] = "cc9c04036a80fcf27a4e9533b6cb0820e3e750be"
-
-; Auto-assign role to group manager broken on groups with overridden roles.
-; https://drupal.org/node/2005800#comment-7684873
-projects[og][patch][] = "http://drupal.org/files/issues/og-default-role-member-2005800-32.patch"
-
-; og_ui should give users the theme, not admin ui when creating groups
-; http://drupal.org/node/1800208
-projects[og][patch][] = "http://drupal.org/files/og_ui-group_node_add_theme-1800208-5.patch"
-
-; Allow non-members with subscribe access to be able to post into a group.
-; http://www.drupal.org/node/2357459
-projects[og][patch][] = "http://drupal.org/files/issues/og_id_user_access.patch"
-
-; og_group_ref field should respect og_user_access()
-; http://drupal.org/node/1902086#comment-7026516
-; projects[og][patch][] = "http://drupal.org/files/1902086-og-ref-respect-og-user-access-3.patch"
-
-projects[og_menu][type] = "module"
-projects[og_menu][subdir] = "contrib"
-projects[og_menu][download][type] = "git"
-projects[og_menu][download][url] = "http://git.drupal.org/project/og_menu.git"
-projects[og_menu][download][branch] = "7.x-3.x"
-projects[og_menu][download][revision] = "fd255c7b900938c2d00c9c2232f2055705e0cca0"
-
-projects[og_vocab][type] = "module"
-projects[og_vocab][subdir] = "contrib"
-projects[og_vocab][version] = "1.2"
-
-projects[og_theme][type] = "module"
-projects[og_theme][subdir] = "contrib"
-projects[og_theme][version] = "2.0"
-
-projects[panelizer][version] = "3.x-dev"
-projects[panelizer][subdir] = "contrib"
-projects[panelizer][download][type] = "git"
-projects[panelizer][download][revision] = "7f28657"
-projects[panelizer][download][branch] = "7.x-3.x"
-; Better Revision Handling
-; http://drupal.org/node/2457113
-projects[panelizer][patch][2457113] = "http://drupal.org/files/issues/2457113-18.patch"
-
-projects[panels][version] = "3.5"
-projects[panels][type] = "module"
-projects[panels][subdir] = "contrib"
-; Fix IPE JS alert (Panelizer is Incompatible with Moderation)
-; http://drupal.org/node/1402860#comment-9729091
-projects[panels][patch][1402860] = "http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch"
-; IPE Insufficient for working with Panelizer Revisioning
-; https://www.drupal.org/node/2462331#comment-9778921
-projects[panels][patch][2462331] = "http://www.drupal.org/files/issues/2462331-4.patch"
-
-projects[panels_tabs][type] = "module"
-projects[panels_tabs][subdir] = "contrib"
-projects[panels_tabs][download][type] = "git"
-projects[panels_tabs][download][url] = "http://git.drupal.org/project/panels_tabs.git"
-projects[panels_tabs][download][branch] = "7.x-1.x"
-projects[panels_tabs][download][revision] = "2caec501d"
-
-projects[pathauto][type] = "module"
-projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
-
-projects[quicktabs][type] = "module"
-projects[quicktabs][version] = "3.6"
-projects[quicktabs][subdir] = "contrib"
-projects[quicktabs][patch][] = "http://drupal.org/files/2104643-revert-qt-487518-5.patch"
-
-projects[r4032login][type] = "module"
-projects[r4032login][subdir] = "contrib"
-projects[r4032login][version] = "1.8"
-
-projects[realname][type] = "module"
-projects[realname][subdir] = "contrib"
-projects[realname][version] = "1.2"
-
-projects[redirect][type] = "module"
-projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc1"
-
-; Do not use rules 2.8, due to a bug causing commerce rules not to fire correctly.
-projects[rules][type] = "module"
-projects[rules][subdir] = "contrib"
-projects[rules][download][type] = "git"
-projects[rules][download][url] = "http://git.drupal.org/project/rules.git"
-projects[rules][download][branch] = "7.x-2.x"
-projects[rules][download][revision] = "7329e5fc9122efc83e14475eb8ee0b88ba753e4e"
-
-projects[smtp][type] = "module"
-projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.2"
-
-projects[subpathauto][type] = "module"
-projects[subpathauto][subdir] = "contrib"
-projects[subpathauto][version] = "1.3"
-
-projects[strongarm][type] = "module"
-projects[strongarm][subdir] = "contrib"
-projects[strongarm][download][type] = "git"
-projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.git"
-projects[strongarm][download][branch] = "7.x-2.x"
-projects[strongarm][download][revision] = "5a2326ba67"
-
-; For COD releases, we peg it to a release of ticket. For dev, we use the dev branch.
-projects[ticket][type] = "module"
-projects[ticket][subdir] = "contrib"
-;projects[ticket][version] = "1.0-beta4"
-projects[ticket][download][type] = "git"
-projects[ticket][download][url] = "http://git.drupal.org/project/ticket.git"
-projects[ticket][download][branch] = "7.x-1.x"
-
-projects[title][type] = "module"
-projects[title][version] = "1.0-alpha7"
-projects[title][subdir] = "contrib"
-
-projects[token][type] = "module"
-projects[token][version] = "1.6"
-projects[token][subdir] = "contrib"
-
-projects[uuid][type] = "module"
-projects[uuid][subdir] = "contrib"
-projects[uuid][download][type] = "git"
-projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
-projects[uuid][download][branch] = "7.x-1.x"
-projects[uuid][download][revision] = "a383295fd6cdb87ca90cc6c1907a5ea868da16d7"
-
-projects[uuid_features][type] = "module"
-projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
-projects[uuid_features][download][branch] = "7.x-1.x"
-projects[uuid_features][download][revision] = "d34d00fac27dde4247fec411f1a196411bd6e913"
-
-projects[variable][type] = "module"
-projects[variable][version] = "2.5"
-projects[variable][subdir] = "contrib"
+projects[backup_migrate][version] = "3.0"
+projects[backup_migrate][subdir] = "contrib"
 
 projects[views][version] = "3.10"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
-projects[views_autorefresh][version] = "1.0-beta3"
-projects[views_autorefresh][type] = "module"
-projects[views_autorefresh][subdir] = "contrib"
+projects[views_slideshow][version] = "3.1"
+projects[views_slideshow][subdir] = "contrib"
 
 projects[views_datasource][type] = "module"
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 
-projects[views_field_view][version] = "1.1"
-projects[views_field_view][type] = "module"
-projects[views_field_view][subdir] = "contrib"
+; blacksea
+projects[blacksea][type] = "theme"
+projects[blacksea][version] = "1.3"
+projects[blacksea][subdir] = "contrib"
 
-projects[views_send][type] = "module"
-projects[views_send][version] = "1.1"
-projects[views_send][subdir] = "contrib"
+; skeletontheme
+projects[skeletontheme][type] = "theme"
+projects[skeletontheme][version] = "1.4"
+projects[skeletontheme][subdir] = "contrib"
 
-projects[views_data_export][type] = "module"
-projects[views_data_export][version] = "3.0-beta8"
-projects[views_data_export][subdir] = "contrib"
+; business
+projects[business][type] = "theme"
+projects[business][version] = "1.11"
+projects[business][subdir] = "contrib"
 
 projects[views_bulk_operations][type] = "module"
 projects[views_bulk_operations][version] = "3.2"
