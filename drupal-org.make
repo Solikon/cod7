@@ -270,6 +270,15 @@ projects[views_datasource][type] = "module"
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 
+projects[ds][version] = "2.7"
+projects[ds][subdir] = "contrib"
+
+projects[profiler_builder][version] = "1.2"
+projects[profiler_builder][subdir] = "contrib"
+
+projects[module_filter][version] = "2.0"
+projects[module_filter][subdir] = "contrib"
+
 ; blacksea
 projects[blacksea][type] = "theme"
 projects[blacksea][version] = "1.3"
