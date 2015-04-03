@@ -453,6 +453,9 @@ projects[menu_block][subdir] = "contrib"
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
 
+projects[profiler_builder][version] = "1.2"
+projects[profiler_builder][subdir] = "contrib"
+
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
