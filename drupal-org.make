@@ -459,7 +459,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "dev"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[imce][version] = "1.9"
@@ -476,6 +476,26 @@ projects[ds][subdir] = "contrib"
 
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
+
+projects[mimemail][version] = "1.0-beta3"
+projects[mimemail][subdir] = "contrib"
+
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = "contrib"
+
+projects[simplenews][version] = "1.1"
+projects[simplenews][subdir] = "contrib"
+
+; Media
+projects[linkit][version] = "2.x-dev"
+projects[linkit][subdir] = "contrib"
+projects[media][version] = "2.x-dev"
+projects[media][subdir] = "contrib"
+projects[media_youtube][version] = "2.x-dev"
+projects[media_youtube][subdir] = "contrib"
+projects[plupload][version] = "1.7"
+projects[plupload][subdir] = "contrib"
+
 
 ; Contributed themes.
 ; This hash of Omega Git is before the Susy 1 to 2 re-write.
@@ -552,3 +572,7 @@ libraries[dompdf][download][type] = "get"
 libraries[dompdf][type] = "libraries"
 libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.6.1/dompdf-0.6.1.zip"
 libraries[dompdf][patch][] = "https://www.drupal.org/files/issues/dompdf-remove-www-1.patch"
+
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][patch][] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-16.patch"
