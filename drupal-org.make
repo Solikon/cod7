@@ -11,6 +11,9 @@ projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0"
 
+projects[advagg][version] = 2.8
+projects[advagg][subdir] = contrib
+
 projects[admin_icons][type] = "module"
 projects[admin_icons][subdir] = "contrib"
 projects[admin_icons][download][type] = "git"
@@ -471,7 +474,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.8"
 projects[ds][subdir] = "contrib"
 
 projects[fpa][version] = "2.6"
