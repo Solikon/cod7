@@ -477,8 +477,14 @@ projects[views_slideshow][subdir] = "contrib"
 projects[ds][version] = "2.8"
 projects[ds][subdir] = "contrib"
 
+projects[fontyourface][version] = "2.8"
+projects[fontyourface][subdir] = "contrib"
+
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
+
+projects[l10n_update][version] = "2.0"
+projects[l10n_update][subdir] = "contrib"
 
 projects[mimemail][version] = "1.0-beta3"
 projects[mimemail][subdir] = "contrib"
