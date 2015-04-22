@@ -518,6 +518,7 @@ projects[omega][patch][] = "http://drupal.org/files/issues/2398093-omega4-backpo
 ; https://www.drupal.org/node/2453475
 projects[omega][patch][] = "http://drupal.org/files/issues/omega-2453475-panels-headings-1.patch"
 
+; Adminimal Admin Theme
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
 projects[adminimal_theme][version] = "1.21"
@@ -531,6 +532,20 @@ projects[blacksea][subdir] = "contrib"
 projects[skeletontheme][type] = "theme"
 projects[skeletontheme][version] = "1.4"
 projects[skeletontheme][subdir] = "contrib"
+
+; bs_solikon
+projects[bs_solikon][type] = "theme"
+projects[bs_solikon][download][type] = "git"
+projects[bs_solikon][download][url] = "https://github.com/Solikon/bs_solikon.git"
+projects[bs_solikon][options][working-copy] = TRUE
+projects[bs_solikon][subdir] = "custom"
+
+; sk_solikon
+projects[sk_solikon][type] = "theme"
+projects[sk_solikon][download][type] = "git"
+projects[sk_solikon][download][url] = "https://github.com/Solikon/sk_solikon.git"
+projects[sk_solikon][options][working-copy] = TRUE
+projects[sk_solikon][subdir] = "custom"
 
 ; business
 projects[business][type] = "theme"
