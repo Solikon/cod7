@@ -462,7 +462,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[wysiwyg][version] = "dev"
+projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[imce][version] = "1.9"
