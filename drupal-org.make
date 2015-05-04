@@ -492,6 +492,15 @@ projects[mimemail][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
 
+projects[select_or_other][version] = "2.21"
+projects[select_or_other][subdir] = "contrib"
+
+projects[botcha][version] = "3.3"
+projects[botcha][subdir] = "contrib"
+
+projects[moopapi][version] = "1.2"
+projects[moopapi][subdir] = "contrib"
+
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
