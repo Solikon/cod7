@@ -357,12 +357,12 @@ projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
 ; Do not use rules 2.8, due to a bug causing commerce rules not to fire correctly.
-projects[rules][type] = "module"
-projects[rules][subdir] = "contrib"
-projects[rules][download][type] = "git"
-projects[rules][download][url] = "http://git.drupal.org/project/rules.git"
-projects[rules][download][branch] = "7.x-2.x"
-projects[rules][download][revision] = "7329e5fc9122efc83e14475eb8ee0b88ba753e4e"
+;projects[rules][type] = "module"
+;projects[rules][subdir] = "contrib"
+;projects[rules][download][type] = "git"
+;projects[rules][download][url] = "http://git.drupal.org/project/rules.git"
+;projects[rules][download][branch] = "7.x-2.x"
+;projects[rules][download][revision] = "7329e5fc9122efc83e14475eb8ee0b88ba753e4e"
 
 projects[smtp][type] = "module"
 projects[smtp][subdir] = "contrib"
@@ -413,7 +413,7 @@ projects[variable][type] = "module"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
@@ -446,7 +446,7 @@ projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
 
 projects[webform][type] = "module"
-projects[webform][version] = "4.5"
+projects[webform][version] = "4.8"
 projects[webform][subdir] = "contrib"
 
 ; Dana
@@ -480,8 +480,14 @@ projects[ds][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
+projects[form_builder][version] = "1.7"
+projects[form_builder][subdir] = "contrib"
+
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
+
+projects[lang_dropdown][version] = "2.5"
+projects[lang_dropdown][subdir] = "contrib"
 
 projects[l10n_update][version] = "2.0"
 projects[l10n_update][subdir] = "contrib"
@@ -491,6 +497,15 @@ projects[mimemail][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
+
+projects[options_element][version] = "1.12"
+projects[options_element][subdir] = "contrib"
+
+projects[registration][version] = "1.4"
+projects[registration][subdir] = "contrib"
+
+projects[rules][version] = "2.9"
+projects[rules][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.21"
 projects[select_or_other][subdir] = "contrib"
