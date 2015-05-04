@@ -1,11 +1,13 @@
 api = 2
 core = 7.x
-projects[drupal][version] = 7.35
 
 includes[] = drupal-org-core.make
+; include the d.o. profile base
+includes[] = "drupal-org.make"
 
-projects[cod][version] = 7.x-1.x
+
 projects[cod][type] = profile
 projects[cod][download][type] = git
-projects[cod][download][url] = http://git.drupal.org/project/cod.git
-projects[cod][download][branch] = 7.x-1.x
+projects[cod][download][url] = https://github.com/Solikon/cod7.git
+projects[cod][download][branch] = master
+projects[cod][subdir] = ""

@@ -11,6 +11,9 @@ projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0"
 
+projects[advagg][version] = 2.8
+projects[advagg][subdir] = contrib
+
 projects[admin_icons][type] = "module"
 projects[admin_icons][subdir] = "contrib"
 projects[admin_icons][download][type] = "git"
@@ -306,6 +309,72 @@ projects[webform][type] = "module"
 projects[webform][version] = "4.5"
 projects[webform][subdir] = "contrib"
 
+; Dana
+projects[menu_block][version] = "2.5"
+projects[menu_block][subdir] = "contrib"
+
+projects[print][version] = "2.0"
+projects[print][subdir] = "contrib"
+
+projects[profiler_builder][version] = "1.2"
+projects[profiler_builder][subdir] = "contrib"
+
+projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][subdir] = "contrib"
+
+projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][subdir] = "contrib"
+
+projects[imce][version] = "1.9"
+projects[imce][subdir] = "contrib"
+
+projects[backup_migrate][version] = "3.0"
+projects[backup_migrate][subdir] = "contrib"
+
+projects[views_slideshow][version] = "3.1"
+projects[views_slideshow][subdir] = "contrib"
+
+projects[ds][version] = "2.8"
+projects[ds][subdir] = "contrib"
+
+projects[fontyourface][version] = "2.8"
+projects[fontyourface][subdir] = "contrib"
+
+projects[fpa][version] = "2.6"
+projects[fpa][subdir] = "contrib"
+
+projects[l10n_update][version] = "2.0"
+projects[l10n_update][subdir] = "contrib"
+
+projects[mimemail][version] = "1.0-beta3"
+projects[mimemail][subdir] = "contrib"
+
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = "contrib"
+
+projects[select_or_other][version] = "2.21"
+projects[select_or_other][subdir] = "contrib"
+
+projects[botcha][version] = "3.3"
+projects[botcha][subdir] = "contrib"
+
+projects[moopapi][version] = "1.2"
+projects[moopapi][subdir] = "contrib"
+
+projects[simplenews][version] = "1.1"
+projects[simplenews][subdir] = "contrib"
+
+; Media
+projects[linkit][version] = "2.x-dev"
+projects[linkit][subdir] = "contrib"
+projects[media][version] = "2.x-dev"
+projects[media][subdir] = "contrib"
+projects[media_youtube][version] = "2.x-dev"
+projects[media_youtube][subdir] = "contrib"
+projects[plupload][version] = "1.7"
+projects[plupload][subdir] = "contrib"
+
+
 ; Contributed themes.
 ; This hash of Omega Git is before the Susy 1 to 2 re-write.
 ; See https://www.drupal.org/node/2398093 for more details.
@@ -324,9 +393,39 @@ projects[omega][patch][] = "http://drupal.org/files/issues/2398093-omega4-backpo
 ; https://www.drupal.org/node/2453475
 projects[omega][patch][] = "http://drupal.org/files/issues/omega-2453475-panels-headings-1.patch"
 
+; Adminimal Admin Theme
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
 projects[adminimal_theme][version] = "1.21"
+
+; blacksea
+projects[blacksea][type] = "theme"
+projects[blacksea][version] = "1.3"
+projects[blacksea][subdir] = "contrib"
+
+; skeletontheme
+projects[skeletontheme][type] = "theme"
+projects[skeletontheme][version] = "1.4"
+projects[skeletontheme][subdir] = "contrib"
+
+; bs_solikon
+projects[bs_solikon][type] = "theme"
+projects[bs_solikon][download][type] = "git"
+projects[bs_solikon][download][url] = "https://github.com/Solikon/bs_solikon.git"
+projects[bs_solikon][options][working-copy] = TRUE
+projects[bs_solikon][subdir] = "custom"
+
+; sk_solikon
+projects[sk_solikon][type] = "theme"
+projects[sk_solikon][download][type] = "git"
+projects[sk_solikon][download][url] = "https://github.com/Solikon/sk_solikon.git"
+projects[sk_solikon][options][working-copy] = TRUE
+projects[sk_solikon][subdir] = "custom"
+
+; business
+projects[business][type] = "theme"
+projects[business][version] = "1.11"
+projects[business][subdir] = "contrib"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
@@ -366,3 +465,7 @@ libraries[dompdf][download][type] = "get"
 libraries[dompdf][type] = "libraries"
 libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.6.1/dompdf-0.6.1.zip"
 libraries[dompdf][patch][] = "https://www.drupal.org/files/issues/dompdf-remove-www-1.patch"
+
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][patch][] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-16.patch"
