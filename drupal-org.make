@@ -456,20 +456,20 @@ projects[menu_block][subdir] = "contrib"
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.2"
-projects[profiler_builder][subdir] = "contrib"
+;projects[profiler_builder][version] = "1.2"
+;projects[profiler_builder][subdir] = "contrib"
 
-projects[imce_wysiwyg][version] = "1.0"
-projects[imce_wysiwyg][subdir] = "contrib"
+;projects[imce_wysiwyg][version] = "1.0"
+;projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.x-dev"
-projects[wysiwyg][subdir] = "contrib"
+;projects[wysiwyg][version] = "2.x-dev"
+;projects[wysiwyg][subdir] = "contrib"
 
 projects[imce][version] = "1.9"
 projects[imce][subdir] = "contrib"
 
-projects[backup_migrate][version] = "3.0"
-projects[backup_migrate][subdir] = "contrib"
+;projects[backup_migrate][version] = "3.0"
+;projects[backup_migrate][subdir] = "contrib"
 
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
@@ -522,10 +522,10 @@ projects[simplenews][subdir] = "contrib"
 ; Media
 projects[linkit][version] = "2.x-dev"
 projects[linkit][subdir] = "contrib"
-projects[media][version] = "2.x-dev"
-projects[media][subdir] = "contrib"
-projects[media_youtube][version] = "2.x-dev"
-projects[media_youtube][subdir] = "contrib"
+;projects[media][version] = "2.x-dev"
+;projects[media][subdir] = "contrib"
+;projects[media_youtube][version] = "2.x-dev"
+;projects[media_youtube][subdir] = "contrib"
 projects[plupload][version] = "1.7"
 projects[plupload][subdir] = "contrib"
 
@@ -559,9 +559,9 @@ projects[blacksea][version] = "1.3"
 projects[blacksea][subdir] = "contrib"
 
 ; skeletontheme
-projects[skeletontheme][type] = "theme"
-projects[skeletontheme][version] = "1.4"
-projects[skeletontheme][subdir] = "contrib"
+;projects[skeletontheme][type] = "theme"
+;projects[skeletontheme][version] = "1.4"
+;projects[skeletontheme][subdir] = "contrib"
 
 ; bs_solikon
 projects[bs_solikon][type] = "theme"
@@ -571,16 +571,16 @@ projects[bs_solikon][options][working-copy] = TRUE
 projects[bs_solikon][subdir] = "custom"
 
 ; sk_solikon
-projects[sk_solikon][type] = "theme"
-projects[sk_solikon][download][type] = "git"
-projects[sk_solikon][download][url] = "https://github.com/Solikon/sk_solikon.git"
-projects[sk_solikon][options][working-copy] = TRUE
-projects[sk_solikon][subdir] = "custom"
+;projects[sk_solikon][type] = "theme"
+;projects[sk_solikon][download][type] = "git"
+;projects[sk_solikon][download][url] = "https://github.com/Solikon/sk_solikon.git"
+;projects[sk_solikon][options][working-copy] = TRUE
+;projects[sk_solikon][subdir] = "custom"
 
 ; business
-projects[business][type] = "theme"
-projects[business][version] = "1.11"
-projects[business][subdir] = "contrib"
+;projects[business][type] = "theme"
+;projects[business][version] = "1.11"
+;projects[business][subdir] = "contrib"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
@@ -593,7 +593,7 @@ libraries[backbone][type] = "libraries"
 libraries[backbone][download][url] = "https://github.com/jashkenas/backbone/archive/1.0.0.tar.gz"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.4/ckeditor_4.3.4_full.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.1/ckeditor_4.3.4_full.zip"
 libraries[ckeditor][type] = "libraries"
 
 libraries[ckeditor_lineutils][download][type] = "get"
