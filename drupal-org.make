@@ -597,13 +597,13 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][type] = "libraries"
 
 libraries[ckeditor_lineutils][download][type] = "get"
-libraries[ckeditor_lineutils][download][url] = "http://download.ckeditor.com/lineutils/releases/lineutils_4.3.4.zip"
+libraries[ckeditor_lineutils][download][url] = "http://download.ckeditor.com/lineutils/releases/lineutils_4.4.1.zip"
 libraries[ckeditor_lineutils][type] = "libraries"
 libraries[ckeditor_lineutils][subdir] = "ckeditor/plugins"
 libraries[ckeditor_lineutils][directory_name] = "lineutils"
 
 libraries[ckeditor_widget][download][type] = "get"
-libraries[ckeditor_widget][download][url] = "http://download.ckeditor.com/widget/releases/widget_4.3.4.zip"
+libraries[ckeditor_widget][download][url] = "http://download.ckeditor.com/widget/releases/widget_4.4.1.zip"
 libraries[ckeditor_widget][type] = "libraries"
 libraries[ckeditor_widget][subdir] = "ckeditor/plugins"
 libraries[ckeditor_widget][directory_name] = "widget"
