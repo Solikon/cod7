@@ -471,6 +471,9 @@ projects[imce][subdir] = "contrib"
 ;projects[backup_migrate][version] = "3.0"
 ;projects[backup_migrate][subdir] = "contrib"
 
+projects[boost][version] = "1.0"
+projects[boost][subdir] = "contrib"
+
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
 
