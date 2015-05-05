@@ -486,6 +486,9 @@ projects[form_builder][subdir] = "contrib"
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
+projects[globalredirect][version] = "1.5"
+projects[globalredirect][subdir] = "contrib"
+
 projects[lang_dropdown][version] = "2.5"
 projects[lang_dropdown][subdir] = "contrib"
 
