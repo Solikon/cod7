@@ -519,6 +519,9 @@ projects[rules][subdir] = "contrib"
 projects[select_or_other][version] = "2.21"
 projects[select_or_other][subdir] = "contrib"
 
+projects[transliteration][version] = "3.2"
+projects[transliteration][subdir] = "contrib"
+
 projects[botcha][version] = "3.3"
 projects[botcha][subdir] = "contrib"
 
