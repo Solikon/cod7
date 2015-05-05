@@ -477,6 +477,9 @@ projects[views_slideshow][subdir] = "contrib"
 projects[ds][version] = "2.8"
 projects[ds][subdir] = "contrib"
 
+projects[draggableviews][version] = "1.5"
+projects[draggableviews][subdir] = "contrib"
+
 projects[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
