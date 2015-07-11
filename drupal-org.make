@@ -453,6 +453,9 @@ projects[webform][subdir] = "contrib"
 projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
+projects[captcha][version] = "1.3"
+projects[captcha][subdir] = "contrib"
+
 projects[exclude_node_title][version] = "1.7"
 projects[exclude_node_title][subdir] = "contrib"
 
@@ -468,8 +471,8 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
-;projects[imce][version] = "1.9"
-;projects[imce][subdir] = "contrib"
+projects[imce][version] = "1.9"
+projects[imce][subdir] = "contrib"
 
 ;projects[backup_migrate][version] = "3.0"
 ;projects[backup_migrate][subdir] = "contrib"
