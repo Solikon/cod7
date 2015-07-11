@@ -11,7 +11,7 @@ projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0"
 
-projects[advagg][version] = 2.8
+projects[advagg][version] = 2.13
 projects[advagg][subdir] = contrib
 
 projects[admin_icons][type] = "module"
@@ -233,10 +233,10 @@ projects[inline_entity_form][version] = "1.5"
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[i18n][type] = "module"
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.13"
 projects[i18n][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "2.6"
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
 
@@ -354,7 +354,7 @@ projects[realname][version] = "1.2"
 
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc3"
 
 ; Do not use rules 2.8, due to a bug causing commerce rules not to fire correctly.
 ;projects[rules][type] = "module"
@@ -446,11 +446,11 @@ projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
 
 projects[webform][type] = "module"
-projects[webform][version] = "4.8"
+projects[webform][version] = "4.9"
 projects[webform][subdir] = "contrib"
 
 ; Dana
-projects[menu_block][version] = "2.5"
+projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
 projects[print][version] = "2.0"
@@ -474,11 +474,11 @@ projects[imce][subdir] = "contrib"
 projects[boost][version] = "1.0"
 projects[boost][subdir] = "contrib"
 
+projects[ds][version] = "2.10"
+projects[ds][subdir] = "contrib"
+
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
-
-projects[ds][version] = "2.8"
-projects[ds][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.1"
 projects[draggableviews][subdir] = "contrib"
@@ -516,7 +516,7 @@ projects[registration][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.21"
+projects[select_or_other][version] = "2.22"
 projects[select_or_other][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
