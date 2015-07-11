@@ -453,6 +453,9 @@ projects[webform][subdir] = "contrib"
 projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
+projects[exclude_node_title][version] = "1.7"
+projects[exclude_node_title][subdir] = "contrib"
+
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
 
@@ -462,11 +465,11 @@ projects[print][subdir] = "contrib"
 ;projects[imce_wysiwyg][version] = "1.0"
 ;projects[imce_wysiwyg][subdir] = "contrib"
 
-;projects[wysiwyg][version] = "2.x-dev"
-;projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][subdir] = "contrib"
 
-projects[imce][version] = "1.9"
-projects[imce][subdir] = "contrib"
+;projects[imce][version] = "1.9"
+;projects[imce][subdir] = "contrib"
 
 ;projects[backup_migrate][version] = "3.0"
 ;projects[backup_migrate][subdir] = "contrib"
@@ -532,12 +535,18 @@ projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
 ; Media
+projects[file_entity][version] = "2.x-dev"
+projects[file_entity][subdir] = "contrib"
+projects[file_force][version] = "1.2"
+projects[file_force][subdir] = "contrib"
 projects[linkit][version] = "2.x-dev"
 projects[linkit][subdir] = "contrib"
-;projects[media][version] = "2.x-dev"
-;projects[media][subdir] = "contrib"
-;projects[media_youtube][version] = "2.x-dev"
-;projects[media_youtube][subdir] = "contrib"
+projects[media][version] = "2.x-dev"
+projects[media][subdir] = "contrib"
+projects[media_youtube][version] = "2.x-dev"
+projects[media_youtube][subdir] = "contrib"
+projects[media_vimeo][version] = "2.1"
+projects[media_vimeo][subdir] = "contrib"
 projects[plupload][version] = "1.7"
 projects[plupload][subdir] = "contrib"
 
