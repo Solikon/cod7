@@ -450,6 +450,10 @@ projects[webform][version] = "4.9"
 projects[webform][subdir] = "contrib"
 
 ; Dana
+
+projects[colorbox][version] = "2.9"
+projects[colorbox][subdir] = "contrib"
+
 projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
@@ -536,6 +540,25 @@ projects[moopapi][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
+
+projects[mediaelement][version] = "1.2"
+projects[mediaelement][subdir] = "contrib"
+
+; Mapping
+projects[geocoder][version] = "1.2"
+projects[geocoder][subdir] = "contrib"
+
+projects[geophp][version] = "1.7"
+projects[geophp][subdir] = "contrib"
+
+projects[ip_geoloc][version] = "1.27"
+projects[ip_geoloc][subdir] = "contrib"
+
+projects[leaflet][version] = "1.1"
+projects[leaflet][subdir] = "contrib"
+
+projects[leaflet_markercluster][version] = "1.2"
+projects[leaflet_markercluster][subdir] = "contrib"
 
 ; Media
 ;projects[file_entity][version] = "2.x-dev"
@@ -648,3 +671,23 @@ libraries[dompdf][patch][] = "https://www.drupal.org/files/issues/dompdf-remove-
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
 libraries[plupload][patch][] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-16.patch"
+
+; Colorbox
+libraries[colorbox][type] = "libraries"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
+
+; leaflet
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+libraries[leaflet][destination] = "libraries"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+
+; leaflet markercluster
+libraries[leaflet_markercluster][download][type] = "git"
+libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
+libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
+libraries[leaflet_markercluster][destination] = "libraries"
