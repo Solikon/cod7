@@ -548,6 +548,9 @@ projects[simplenews][subdir] = "contrib"
 projects[mediaelement][version] = "1.2"
 projects[mediaelement][subdir] = "contrib"
 
+projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][subdir] = "contrib"
+
 ; Mapping
 projects[geocoder][version] = "1.2"
 projects[geocoder][subdir] = "contrib"
