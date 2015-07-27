@@ -11,7 +11,7 @@ projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0"
 
-projects[advagg][version] = 2.13
+projects[advagg][version] = 2.14
 projects[advagg][subdir] = contrib
 
 projects[admin_icons][type] = "module"
@@ -29,12 +29,16 @@ projects[admin_menu][download][url] = "http://git.drupal.org/project/admin_menu.
 projects[admin_menu][download][branch] = "7.x-3.x"
 projects[admin_menu][download][revision] = "b07d37b8"
 
-projects[adminimal_admin_menu][type] = "module"
+
+projects[adminimal_admin_menu][version] = "1.6"
 projects[adminimal_admin_menu][subdir] = "contrib"
-projects[adminimal_admin_menu][download][type] = "git"
-projects[adminimal_admin_menu][download][url] = "http://git.drupal.org/project/adminimal_admin_menu.git"
-projects[adminimal_admin_menu][download][branch] = "7.x-1.x"
-projects[adminimal_admin_menu][download][revision] = "eca2f1c4"
+
+;projects[adminimal_admin_menu][type] = "module"
+;projects[adminimal_admin_menu][subdir] = "contrib"
+;projects[adminimal_admin_menu][download][type] = "git"
+;projects[adminimal_admin_menu][download][url] = "http://git.drupal.org/project/adminimal_admin_menu.git"
+;projects[adminimal_admin_menu][download][branch] = "7.x-1.x"
+;projects[adminimal_admin_menu][download][revision] = "eca2f1c4"
 
 projects[advanced_help][type] = "module"
 projects[advanced_help][version] = "1.1"
@@ -446,7 +450,7 @@ projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
 
 projects[webform][type] = "module"
-projects[webform][version] = "4.9"
+projects[webform][version] = "4.10"
 projects[webform][subdir] = "contrib"
 
 ; Dana
@@ -484,7 +488,7 @@ projects[imce][subdir] = "contrib"
 projects[boost][version] = "1.0"
 projects[boost][subdir] = "contrib"
 
-projects[ds][version] = "2.10"
+projects[ds][version] = "2.11"
 projects[ds][subdir] = "contrib"
 
 projects[views_slideshow][version] = "3.1"
