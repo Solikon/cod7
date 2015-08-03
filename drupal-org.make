@@ -521,6 +521,9 @@ projects[mimemail][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
 
+projects[invisimail][version] = "1.2"
+projects[invisimail][subdir] = "contrib"
+
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
