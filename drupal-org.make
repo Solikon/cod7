@@ -259,7 +259,7 @@ projects[imce][subdir] = "contrib"
 projects[backup_migrate][version] = "3.0"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.14"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
