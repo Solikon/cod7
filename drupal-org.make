@@ -364,5 +364,5 @@ libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcrea
 
 libraries[dompdf][download][type] = "get"
 libraries[dompdf][type] = "libraries"
-libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.6.1/dompdf-0.6.1.zip"
+libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/archive/v0.6.1.zip"
 libraries[dompdf][patch][] = "https://www.drupal.org/files/issues/dompdf-remove-www-1.patch"
