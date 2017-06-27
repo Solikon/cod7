@@ -66,11 +66,11 @@ projects[connector][version] = "1.0-beta2"
 
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.16"
+projects[ckeditor][version] = "1.18"
 
 ; Accomodate latest Media changes.
 ; https://drupal.org/node/2159403
-projects[ckeditor][patch][] = "http://drupal.org/files/issues/ckeditor-accomodate-latest-media-changes-81.patch"
+;projects[ckeditor][patch][] = "http://drupal.org/files/issues/ckeditor-accomodate-latest-media-changes-81.patch"
 
 projects[cod_support][type] = "module"
 projects[cod_support][subdir] = "contrib"
@@ -133,7 +133,7 @@ projects[ctools][version] = "1.12"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.10"
 
 projects[date_ical][type] = "module"
 projects[date_ical][subdir] = "contrib"
@@ -176,7 +176,7 @@ projects[entitycache][patch][] = "http://drupal.org/files/add-translation-inform
 
 projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.4"
 
 ; Fix foreign keys feature revert issue
 ; https://www.drupal.org/node/1969018
@@ -230,7 +230,7 @@ projects[inline_entity_form][version] = "1.5"
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[i18n][type] = "module"
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.18"
 projects[i18n][subdir] = "contrib"
 
 projects[jquery_update][version] = "2.7"
@@ -253,7 +253,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[imce][version] = "1.9"
+projects[imce][version] = "1.11"
 projects[imce][subdir] = "contrib"
 
 projects[backup_migrate][version] = "3.0"
@@ -270,13 +270,13 @@ projects[views_datasource][type] = "module"
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0"
+projects[module_filter][version] = "2.1"
 projects[module_filter][subdir] = "contrib"
 
 ; blacksea
@@ -303,7 +303,7 @@ projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
 
 projects[webform][type] = "module"
-projects[webform][version] = "4.5"
+projects[webform][version] = "4.15"
 projects[webform][subdir] = "contrib"
 
 projects[xmlsitemap][type] = "module"
@@ -330,7 +330,7 @@ projects[omega][patch][] = "http://drupal.org/files/issues/omega-2453475-panels-
 
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
-projects[adminimal_theme][version] = "1.21"
+projects[adminimal_theme][version] = "1.24"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
