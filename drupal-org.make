@@ -129,7 +129,7 @@ projects[conditional_fields][download][revision] = "0b37992f49ec9f63f78f947168f2
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.12"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -233,7 +233,7 @@ projects[i18n][type] = "module"
 projects[i18n][version] = "1.12"
 projects[i18n][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "2.7"
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
 
@@ -259,7 +259,7 @@ projects[imce][subdir] = "contrib"
 projects[backup_migrate][version] = "3.0"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[views][version] = "3.14"
+projects[views][version] = "3.16"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
@@ -305,6 +305,10 @@ projects[votingapi][subdir] = "contrib"
 projects[webform][type] = "module"
 projects[webform][version] = "4.5"
 projects[webform][subdir] = "contrib"
+
+projects[xmlsitemap][type] = "module"
+projects[xmlsitemap][version] = "2.3"
+projects[xmlsitemap][subdir] = "contrib"
 
 ; Contributed themes.
 ; This hash of Omega Git is before the Susy 1 to 2 re-write.
